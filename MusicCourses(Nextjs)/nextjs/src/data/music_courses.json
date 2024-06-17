@@ -1,0 +1,115 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Singing for Musical Theatre",
+        "description": "Develop your vocal skills and learn proper breathing, pitch control, and performance techniques.",
+        "level": "Intermediate",
+        "duration": "12 weeks",
+        "format": "In-person & Online",
+        "instructor": "Mr. David Brown",
+        "isFeatured": false,
+        "link": "https://example.com/singing-musical-theatre"
+      },
+      {
+        "id": 2,
+        "title": "Advanced Music Theory: Harmony and Counterpoint",
+        "description": "Develop your vocal skills and learn proper breathing, pitch control, and performance techniques.",
+        "level": "Intermediate",
+        "duration": "12 weeks",
+        "format": "In-person",
+        "instructor": "Ms. Jane Doe",
+        "isFeatured": false,
+        "link": "https://example.com/advanced-music-theory"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to Music Theory",
+        "description": "Delve deeper into music theory, focusing on harmony and counterpoint techniques.",
+        "level": "Beginner",
+        "duration": "12 weeks",
+        "format": "In-person & Online",
+        "instructor": "Professor Michael Lee",
+        "isFeatured": true,
+        "link": "https://example.com/intro-music-theory"
+      },
+      {
+        "id": 4,
+        "title": "Music for Relaxation and Mindfulness",
+        "description": "Learn the basics of playing the guitar, including chords, strumming patterns, and fingerpicking techniques.",
+        "level": "Intermediate",
+        "duration": "8 weeks",
+        "format": "In-person",
+        "instructor": "John Williams",
+        "isFeatured": true,
+        "link": "https://example.com/music-relaxation"
+      },
+      {
+        "id": 5,
+        "title": "Music Production for Electronic Music",
+        "description": "Explore the history of Western music, from the Baroque period to the Classical era.",
+        "level": "Intermediate",
+        "duration": "1 semester",
+        "format": "In-person",
+        "instructor": "Dr. Anne Smith",
+        "isFeatured": true,
+        "link": "https://example.com/music-production"
+      },
+      {
+        "id": 6,
+        "title": "Introduction to Music Theory",
+        "description": "Learn how to create music that complements and enhances visual storytelling.",
+        "level": "Advanced",
+        "duration": "8 weeks",
+        "format": "Online",
+        "instructor": "Mr. John Smith",
+        "isFeatured": false,
+        "link": "https://example.com/intro-music-theory-adv"
+      },
+      {
+        "id": 7,
+        "title": "Music for Relaxation and Mindfulness",
+        "description": "Learn how to create music that complements and enhances visual storytelling.",
+        "level": "Intermediate",
+        "duration": "12 weeks",
+        "format": "Online",
+        "instructor": "David Brown",
+        "isFeatured": true,
+        "link": "https://example.com/music-relaxation-online"
+      },
+      {
+        "id": 8,
+        "title": "Advanced Music Theory: Harmony and Counterpoint",
+        "description": "Explore the history of Western music, from the Baroque period to the Classical era.",
+        "level": "Advanced",
+        "duration": "1 semester",
+        "format": "In-person",
+        "instructor": "Mr. John Smith",
+        "isFeatured": true,
+        "link": "https://example.com/advanced-music-theory-adv"
+      },
+      {
+        "id": 9,
+        "title": "Composing for Film and TV",
+        "description": "Learn the basics of playing the guitar, including chords, strumming patterns, and fingerpicking techniques.",
+        "level": "Advanced",
+        "duration": "1 semester",
+        "format": "In-person & Online",
+        "instructor": "John Williams",
+        "isFeatured": true,
+        "link": "https://example.com/composing-film-tv"
+      },
+      {
+        "id": 10,
+        "title": "Introduction to Music Theory",
+        "description": "Develop your vocal skills for singing in musical theatre productions.",
+        "level": "Intermediate",
+        "duration": "10 weeks",
+        "format": "Online",
+        "instructor": "Ms. Sarah Jones",
+        "isFeatured": true,
+        "link": "https://example.com/intro-music-theory-online"
+      }
+    ]
+  }
+  

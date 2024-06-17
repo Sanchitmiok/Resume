@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.flex{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.logo_size{
+    width: 35px;
+}
+.p-1{
+    padding: 18px;
+}
+.m-1{
+    margin: 8px;
+}
+.bg-grey{
+    background-color: rgb(18, 18, 18);
+}
+
+.radius{
+    border-radius: 5px;
+}
+
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+  
+
+  
+@media only screen and (max-width: 1200px) {
+   .logo_size{
+    width: 25px;
+   }
+   }
+
+   @media only screen and (max-width: 426px) and (max-height:926px) {
+    .m-1{
+        margin: 0;
+    }
+    
+  }

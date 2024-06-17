@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+.left {
+    width: 23vw;
+}
+
+.right {
+    width: 77vw;
+    position: relative;
+}
+.closee{
+    display: none;
+}
+
+.home ul li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.lib {
+    margin-top: 1vh;
+    min-height: 60vh;
+    position: relative;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.3vw;
+    font-size: 11px;
+
+    position: absolute;
+    bottom: 5vh;
+}
+
+.footer a {
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+}
+
+.header-right {
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+.hamburger{
+    display: none;
+}
+
+.button {
+    gap: 6px;
+    margin: 8px;
+}
+
+.button>button {
+    padding: 14px 30px;
+    font-size: 16px;
+}
+
+.sign-in {
+    background-color: rgb(18, 18, 18);
+    color: rgb(133, 132, 133);
+    border: none;
+}
+
+.log-in {
+    margin-left: 3px;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.log-in:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    max-height: 65vh;
+    overflow: auto;
+    padding: 1vw 2vw;
+
+}
+
+.card {
+    width: 175px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(25, 25, 24);
+    font-size: 13px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.card:hover {
+    background-color: rgb(34, 35, 34);
+    cursor: pointer;
+}
+
+.card:hover .play {
+    top: 128px;
+    opacity: 1;
+
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.card-container {
+    padding-top: 2vh;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.play {
+    width: fit-content;
+    position: absolute;
+    top: 136px;
+    right: 15px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+
+.boxo {
+    height: 42px;
+    padding: 20px 18px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+}
+
+.action {
+    margin: 9px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 15px;
+}
+
+.seekbar-container {
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    gap: 15px;
+}
+
+.seekbar-container>input:hover {
+
+    cursor: pointer;
+}
+
+.songname {
+    width: 200px;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seekbar {
+    width: 500px;
+}
+
+.seek-action {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.volume {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 44px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card > img {
+    height: 180px;
+    width: 180px;
+}
+
+.songlist ul {
+    gap: 2volpx;
+    flex-direction: column;
+    display: flex;
+    list-style-type: decimal;
+    padding: 15px;
+    max-height: 350px;
+    overflow: auto;
+}
+
+.songlist ul li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.songlist ul li:hover {
+    background-color: rgb(34, 35, 34);
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    overflow: none;
+}
+
+.info>div p:nth-child(1) {
+    white-space: nowrap;
+    max-width: 118px;
+    max-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Music-run {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+}
+
+.Music-run>img:hover {
+    width: 1.8vw;
+}
+
+  @media only screen and (max-width: 1500px) { 
+    .songlist ul {
+        
+        max-height: 40vh;
+
+    }
+    .footer {
+        grid-template-columns: repeat(7, 1fr);
+    }
+    
+  
+    .left{
+        display: none;
+        position: fixed;
+        width: 60%;
+        height: 80vh;
+        z-index: 1;
+        scroll-behavior: auto;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .right {
+        width: 100vw;
+        height: 80vh;
+    }
+    .left-right{
+        gap: 10px;
+    }
+    .closee{
+        display: block;
+        position: fixed;
+        left: 55vw;
+        top: 2vh;
+    }
+    .lib {
+
+        height: 50vh;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+   body{
+    height: auto;
+   }
+   .footer {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+    .boxo{
+        flex-direction: column;
+        align-items: center;
+        height: calc(100% - 80vh);
+        padding: 0;
+        
+    }
+    .boxo .songname{
+        font-size: 10px;
+    }
+    .songname{
+    height: 30px;
+    }
+    .seekbar {
+        width: 400px;
+    }
+    #Vol {
+        width: 40%; /* Set the desired width */
+        margin: 10px; /* Add margin for spacing */
+      }
+    .right{
+        width: 100%;
+        border: 2px red;
+        height: 70vh;
+        
+    }
+    .card-container{
+      height: 50vh;
+    }
+  }
+
+  @media only screen and (max-width: 426px) and (max-height:926px) {
+    .right{
+        height: 79vh;
+    }
+    .left{
+        width: 25em;
+    }
+    .closee {
+        left: 80vw;
+    }
+    .seekbar {
+        width: 244px;
+    }
+    .card-container {
+        height: 31em;
+    }
+    .card{
+        width: 145px;
+    }
+    .card > img{
+        height: 140px;
+        width: 140px;
+    }
+    .container{
+        height: 79vh;
+    }
+
+    .lib {
+        height: 50vh;
+    }
+  }
